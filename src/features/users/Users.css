@@ -1,0 +1,72 @@
+.delete-user-button {
+  color: black;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.delete-user-button :hover {
+  color: red;
+}
+
+.edit-user-button {
+  color: rgb(69, 18, 200);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.edit-user-button :hover {
+  color: rgb(126, 98, 203);
+}
+
+.container-projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 2rem;
+}
+
+.container-project {
+  border: 2px solid rgb(76, 164, 76);
+  background-color: rgb(76, 164, 76);
+  color: white;
+  font-weight: bolder;
+  padding: 0 6px;
+  border-radius: 1rem;
+}
+
+.delete-icon {
+  cursor: pointer;
+}
+
+.container-modal {
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-down-container {
+  padding: 0.4rem;
+  display: flex;
+  width: 100%;
+  margin: 0.2rem;
+  background-color: rgb(178, 236, 157);
+  font-weight: bolder;
+  justify-content: space-evenly;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.drop-down-maincontainer  :hover {
+  background-color: rgb(149, 215, 126);
+}
+
+.drop-down-maincontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}

@@ -1,0 +1,31 @@
+.cards {
+    border: 2px solid rgb(34,39,43);
+    padding: 0.4rem;
+    margin-bottom: 5px;
+    background-color: rgb(34,39,43);
+    border-radius: 5px;
+    font-size: 80%;
+    display: flex;
+}
+
+.cards:hover {
+    border: 2px solid rgb(87,157,255);
+}
+
+.list-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem 2rem 0 1rem;
+    width: 100%;
+}
+
+.main-container-button {
+    display: flex;
+    margin: 12px;
+    justify-content: space-between;
+}
+
+.view-container {
+    display: flex;
+    gap: 15px;
+}
